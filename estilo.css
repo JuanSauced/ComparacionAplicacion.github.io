@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border;
+}
+html{
+    font-family: 'Titillium Web', sans-serif;
+    color :white
+}
+.encabezado{
+    min-height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+    background-color: #101010;  
+}
+.titulo{
+    margin-top: 50px;
+    min-height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+    background-color: #1e1f22;
+}
+.contenedor{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 0px,0px,0px;
+    background-color: #101010;
+}
+.subcont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px,0px,0px;
+    background-color: #101010;
+}
+.contenido{
+    flex: 1;
+}
+
+
+.contenido p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    padding: 20px 20px 20px ;
+    
+}
+.tabla{
+    border-collapse: collapse;
+    min-width: 500px;  
+    border-color: #1e1e1e; 
+    flex-direction: column-reverse;
+}
+.tabla td{
+    background-color:#1e1f22;
+}
+
+th{
+    color: white; 
+    
+}
+td{
+    text-align: center;
+    color: beige;
+}
+
+.table,th,td{
+    border:1px solid;
+}
+
+
